@@ -1,0 +1,13 @@
+.author-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.photo-icon {
+  font-size: 3rem;
+}
+.author-details h3 {
+  font-weight: 300;
+  font-size: 2rem;
+}

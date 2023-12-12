@@ -1,0 +1,41 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.gallery-layout {
+  padding: 4rem 2rem;
+  columns: 240px 4;
+  gap: 1.5rem;
+}
+.loadmore-btn {
+  background-color: rgb(110, 7, 179);
+  padding: 1.8rem 3.4rem;
+  border-radius: 1rem;
+  color: white;
+  font-weight: 200;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+.loadmore-btn:hover {
+  background-color: rgb(56, 4, 90);
+}
+.loadmore-btn:disabled {
+  background-color: #6e07b3ab;
+  cursor: auto;
+}
+.error-message-div {
+  font-size: 4rem;
+  font-weight: 100;
+  text-align: center;
+}
+.error-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}

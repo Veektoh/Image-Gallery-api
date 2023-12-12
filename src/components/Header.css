@@ -1,0 +1,33 @@
+.header-div {
+  background-image: url("../assets/images/search-img.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  text-align: center;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.header-content h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.header-content h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .header-content h1 {
+    font-size: 5rem;
+  }
+  .header-content h2 {
+    font-size: 3rem;
+  }
+}

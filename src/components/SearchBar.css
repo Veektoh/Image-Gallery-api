@@ -1,0 +1,17 @@
+.search-div {
+  position: relative;
+}
+.search-bar {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  font-size: 2rem;
+  padding-left: 6.4rem;
+}
+.search-icon {
+  color: gray;
+  position: absolute;
+  top: 1.6rem;
+  left: 2rem;
+  font-size: 2.8rem;
+}

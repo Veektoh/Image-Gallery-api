@@ -1,0 +1,9 @@
+.skeleton-div {
+  columns: 240px 4;
+  gap: 1.5rem;
+}
+.image-skeleton {
+  height: 450px;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
