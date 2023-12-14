@@ -1,8 +1,8 @@
 import React from "react";
 import "./ImageModal.css";
-import ImageAuthor from "./ImageAuthor";
+import ImageAuthor from "../ImageAuthor/ImageAuthor.js";
 import { LuDownload } from "react-icons/lu";
-import Button from "./Button.js";
+import Button from "../Button/Button.js";
 import { AiOutlineClose } from "react-icons/ai";
 
 function ImageModal({ photo, isImageModalOpen, closePhoto, onDownloadImage }) {

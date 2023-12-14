@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import SearchBar from "./SearchBar";
+import SearchBar from "../SearchBar/SearchBar";
 
 function Header({ onSearchImage }) {
   return (

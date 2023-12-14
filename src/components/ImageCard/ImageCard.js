@@ -1,9 +1,9 @@
 import React from "react";
 import "./ImageCard.css";
-import ImageAuthor from "./ImageAuthor";
-import Button from "./Button";
+import ImageAuthor from "../ImageAuthor/ImageAuthor";
+import Button from "../Button/Button";
 import { LuDownload } from "react-icons/lu";
-import downloadImage from "../utilis/downloadImage";
+import downloadImage from "../../utilis/downloadImage";
 
 function ImageCard({ imgURL, name, openPhoto }) {
   return (

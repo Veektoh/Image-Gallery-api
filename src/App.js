@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
-import Gallery from "./components/Gallery";
+import Header from "./components/Header/Header";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   const [url, setUrl] = useState("");

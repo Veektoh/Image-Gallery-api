@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Gallery.css";
-import ImageCard from "./ImageCard";
-import ImageModal from "./ImageModal";
-import downloadImage from "../utilis/downloadImage";
-import ImageSkeleton from "./ImageSkeleton";
-import useFetch from "../utilis/useFetch";
+import ImageCard from "../ImageCard/ImageCard";
+import ImageModal from "../ImageModal/ImageModal";
+import downloadImage from "../../utilis/downloadImage";
+import ImageSkeleton from "../ImageSkeleton/ImageSkeleton";
+import useFetch from "../../utilis/useFetch";
 
 function Gallery({ search }) {
   const [image, setImage] = useState("");
